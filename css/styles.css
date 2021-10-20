@@ -1,11 +1,22 @@
 .box{
   float: left;
-  width: 300px;
-  height: 300px;
+  width: 25%;
+  height: 25%;
 }
 .thumbnail{
-  box-sizing: content-box;
+  
+  box-sizing: border-box;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 5px
   width: 150px;
   height: 150px;
+}
 
+.title{
+  text-align: center;
+}
+
+div{
+  text-align: center;
 }
