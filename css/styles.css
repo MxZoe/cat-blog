@@ -1,19 +1,35 @@
-.box{
-  float: left;
-  width: 25%;
-  text-align: center;
-  
-}
-.thumbnail{
-  
-  border: 1px solid gray;
-  border-radius: 4px;
-  padding: 5px
-  width: 150px;
-  height: 150px;
+.light img{
+  border:5px solid black;
 }
 
-.title{
-  text-align: center;
+.light .jumbotron{
+  border: 5px solid black;
 }
 
+.dark{
+  background-color: black;
+  color: white;
+}
+
+.dark img{
+  border: 5px solid white;
+}
+
+.dark .jumbotron{
+  border: 5px solid white;
+}
+
+.col-md-3{
+  text-align: center;
+}
+.col-md-3 img{
+  border-radius: 10%;
+  width: 50%; 
+}
+
+.jumbotron {
+  padding: 1rem .5rem;
+  margin-bottom: 2rem;
+  border-radius: 15%;
+  text-align: center;
+}
